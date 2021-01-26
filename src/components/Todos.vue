@@ -38,7 +38,6 @@ export default {
         title: todo.title,
         completed: !todo.completed
       };
-
       this.updateTodo(updTodo);
     }
   },
